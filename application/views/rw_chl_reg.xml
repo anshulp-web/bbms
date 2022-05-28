@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+
+<!DOCTYPE REPORT SYSTEM "PHPReport.dtd">
+
+<REPORT>
+
+<TITLE>Item Master</TITLE>
+
+<BACKGROUND_COLOR>#FFFFFF</BACKGROUND_COLOR>
+
+<CSS><?php echo base_url()?>EvReports/css/EvReports.css</CSS>
+
+<SQL>
+select a.trans_no,a.trans_dt,b.ac_nm,a.remark,
+a.sr_no,a.advance,c.item_nm,a.iqty,a.irate,a.iamt
+from quot_trans a,acmsmst b,stmsmst c
+where a.ac_cd=b.ac_cd
+and a.item_cd=c.item_cd
+and a.factory_cd='1'
+and a.trans_type ='CHL'
+
+and a.trans_dt between '2015-03-31' and '2022-04-30'
+</SQL>
+<MYWHERE></MYWHERE>
+<MYERROR>Y</MYERROR>
+
+<MYGRP></MYGRP>
+
+<DOCUMENT>
+</DOCUMENT>
+
+<PAGE BORDER="0" CELLSPACING="0" CELLPADDING="5" WIDTH="850" SIZE="50">
+	
+		
+		<HEADER>
+			<ROW>
+				<COL COLSPAN="3" CELLCLASS="ENG_10_BOLD">[COMP_NM]</COL>
+				<COL ALIGN="RIGHT" COLSPAN="7" TYPE="EXPRESSION" CELLCLASS="ENG_9_NORMAL">"Page : ".$this->getPageNum()</COL>	
+			</ROW>		
+			<ROW>
+				<COL COLSPAN="3" CELLCLASS="ENG_8_NORMAL">[COMP_ADD]</COL>
+				<COL ALIGN="RIGHT" COLSPAN="7" CELLCLASS="ENG_9_NORMAL">[CUR_DATE]</COL>
+			</ROW>
+			<ROW>
+				<COL COLSPAN="6" CELLCLASS="ENG_9_BOLD" TYPE="EXPRESSION" ></COL>
+			</ROW>
+				
+			<ROW>
+				<COL ALIGN="LEFT"   CELLCLASS="ENG_9_BOLD VERT_LRL LINE_TP LINE_BT" COLSPAN="1" ROWSPAN="1">Challan No.</COL>
+				<COL ALIGN="LEFT"   CELLCLASS="ENG_9_BOLD VERT_LRL LINE_TP LINE_BT" COLSPAN="1" ROWSPAN="1">Date</COL>
+				<COL ALIGN="LEFT"   CELLCLASS="ENG_9_BOLD VERT_LRS LINE_TP LINE_BT" COLSPAN="1" ROWSPAN="1">Customer</COL>
+				<COL ALIGN="LEFT"   CELLCLASS="ENG_9_BOLD VERT_LRS LINE_TP LINE_BT" COLSPAN="1" ROWSPAN="1">Description</COL>
+				
+				<COL ALIGN="RIGHT"  CELLCLASS="ENG_9_BOLD VERT_LRS LINE_TP LINE_BT" COLSPAN="1" ROWSPAN="1">Qty</COL>
+				
+				
+			</ROW>
+		</HEADER>
+		<GROUPS>	
+			<GROUP NAME="grp1" EXPRESSION="">
+				<HEADER>
+					
+				</HEADER>
+			<FOOTER>
+				<ROW>
+					<COL TYPE="EXPRESSION" CELLCLASS="ENG_9_BOLD VERT_LRS VERT_LRL LINE_BT" ALIGN="LEFT" COLSPAN="1" ROWSPAN="1"></COL>
+					<COL TYPE="EXPRESSION" CELLCLASS="ENG_9_BOLD VERT_LRL LINE_BT" ALIGN="RIGHT" COLSPAN="3" ROWSPAN="1">"Grand Total"</COL>
+					<COL TYPE="EXPRESSION" CELLCLASS="ENG_9_BOLD VERT_LRS LINE_BT" ALIGN="RIGHT"    COLSPAN="1" NUMBERFORMATEX="2" ROWSPAN="1">$this->getSum("iqty")</COL>
+					
+				</ROW>
+			</FOOTER>
+			<FIELDS>
+				<ROW>
+					<COL TYPE="EXPRESSION" CELLCLASS="ENG_9_NORMAL VERT_LRL LINE_BT" width="20" ALIGN="LEFT"     COLSPAN="1" ROWSPAN="1">$this->getValue("trans_no")</COL>
+					<COL TYPE="EXPRESSION" CELLCLASS="ENG_9_NORMAL VERT_LRL LINE_BT" width="150" ALIGN="LEFT" COLSPAN="1" ROWSPAN="1">$this->getValue("trans_dt")</COL>
+					<COL TYPE="EXPRESSION" CELLCLASS="ENG_9_NORMAL VERT_LRS LINE_BT" width="225" ALIGN="LEFT" COLSPAN="1" ROWSPAN="1">$this->getValue("ac_nm")</COL>
+					<COL TYPE="EXPRESSION" CELLCLASS="ENG_9_NORMAL VERT_LRS LINE_BT" width="100" ALIGN="LEFT" COLSPAN="1" ROWSPAN="1">$this->getValue("item_nm")</COL>
+					<COL TYPE="EXPRESSION" CELLCLASS="ENG_9_NORMAL VERT_LRS LINE_BT" width="20" ALIGN="RIGHT"     COLSPAN="1" ROWSPAN="1">$this->getValue("iqty")</COL>
+					
+					
+				</ROW>
+			</FIELDS>
+			</GROUP>
+		</GROUPS>
+</PAGE>
+</REPORT>

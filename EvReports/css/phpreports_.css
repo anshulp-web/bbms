@@ -1,0 +1,228 @@
+BODY {
+	margin:0pt;
+	color:#000000;
+}
+
+A {
+	font-family:"verdana";
+	font-size:12pt;
+	font-weight:bold;
+	color:#137BF9;
+}
+
+.MENUTABLE {
+	background: #137BF9;
+}
+
+.MENULINK {
+	font-family:"verdana";
+	font-size:12pt;
+	font-weight:bold;
+	color:#00000;
+	text-decoration:none;
+}
+
+A:HOVER {
+	text-decoration:underline;
+}
+
+.REGULAR {
+	font-family:"verdana";
+	font-size:9pt;
+	font-weight:normal;
+	color:#000000;
+}
+
+.BOLD {
+	font-family:"verdana";
+	font-size:9pt;
+	font-weight:bold;
+	color:#000000;
+}
+
+.HEAD_COMP_NM {
+	font-family:"verdana";
+	font-size:10pt;
+	font-weight:normal;
+	color:#000000;
+}
+.HEAD_COMP_ADD {
+	font-family:"verdana";
+	font-size:8pt;
+	font-weight:normal;
+	color:#000000;
+}
+.HEAD_TITLE  {
+	font-family:"verdana";
+	font-size:9pt;
+	font-weight:bold;
+	color:#000000;
+}
+.LINE {
+	padding: 0px;
+    border: .1px inset;
+    font-size: 0px;
+    color: gray;
+	
+}
+
+
+.TITLE {
+	font-family:"verdana";
+	font-size:20pt;
+	font-weight:bold;
+	color:#000000;
+	text-decoration:none;
+}
+
+.REALLY_BIG {
+	font-family:"verdana";
+	font-size:36pt;
+	font-weight:bold;
+	color:#000000;
+	text-decoration:none;
+}
+
+.DOCUMENT_LAYER {
+	background: #FFFFFF;
+	font-family:"verdana";
+	font-size:9pt;
+	font-weight:normal;
+	color:#000000;
+}
+
+.PAGE_LAYER {
+	background: #FFFFFF;
+	font-family:"verdana";
+	font-size:9pt;
+	font-weight:normal;
+	color:#000000;
+}
+
+.HEAD_LAYER {
+	background: #FFFFFF;
+	font-family:"verdana";
+	font-size:7pt;
+	font-weight:normal;
+	color:#000000;
+}
+
+
+.REP_NM_LAYER {
+	background: #FFFFFF;
+	font-family:"verdana";
+	font-size:9pt;
+	font-weight:bold;
+	color:#000000;
+}
+
+.GROUP_LAYER {
+	background: #FFFFFF;
+	font-family:"verdana";
+	font-size:10pt;
+	font-weight:normal;
+	color:#000000;
+}
+.GROUP_LAYER_HIN {
+	background: #FFFFFF;
+	font-family:"Kruti Dev 010";
+	font-size:15pt;
+	font-weight:normal;
+	color:#000000;
+}
+
+
+.TOTAL_LAYER { 
+	background: #FFFFFF;
+	font-family:"verdana";
+	font-size:12pt;
+	font-weight:normal;
+	color:#000000;
+}
+
+.CATALOG_LAYER {
+	background: #FFFFFF;
+	font-family:"verdana";
+	font-size:12pt;
+	font-weight:normal;
+	color:#000000;
+}
+
+.RED_ROW {
+	background: #FF0000;
+	font-family:"verdana";
+	font-size:12pt;
+	font-weight:normal;
+	color:#FFFFFF;
+}
+
+.YELLOW_ROW {
+	background: #FFFFFF;
+	font-family:"verdana";
+	font-size:12pt;
+	font-weight:normal;
+	color:#000000;
+}
+
+.XML {
+	font-family: "verdana";
+	font-size: 11pt;
+	font-weight: plain;
+	color: #000000;
+}	
+
+.CODE {
+	font-family: "verdana";
+	font-size: 10pt;
+	font-weight: normal;
+	color: #000000;
+	background: #FFFFFF;
+}
+
+.CODE_HIGHLIGHT {
+	font-family: "verdana";
+	font-size: 10pt;
+	font-weight: normal;
+	color: #000000;
+	background: #D4FC0A;
+	width:500pt;
+}
+
+.SUBMIT_BUTTON {
+	background: #00B000;
+	font-family:"verdana";
+	font-size:12pt;
+	font-weight:bold;
+	color:#FFFFFF;
+	border-style:solid;
+	border-width:1pt;
+	border-color:#000000;
+	padding:5pt;
+}
+
+.PHPREPORTS_PAGE_CELL {
+	background: #FFFFFF;
+	font-family: "verdana";
+	font-size:12pt;
+	font-weight: normal;
+}
+
+.PHPREPORTS_PAGE_LINK {
+	color: #0000C0;
+	font-family: "verdana";
+	font-size:12pt;
+	font-weight: bold;
+}
+
+.PHPREPORTS_PAGE_LINK_BOLD {
+	color: #000000;
+	font-family: "verdana";
+	font-size:12pt;
+	font-weight: bold;
+	text-decoration:none;
+}
+
+.NOVIS{
+	visibility:hidden;
+
+}

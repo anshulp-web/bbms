@@ -1,0 +1,318 @@
+#DivRptLyt {
+	zoom :85%;
+	-moz-transform: scale(.85);
+	margin-left: -60px;
+
+	padding-left: 0px;
+	overflow-x:scroll;
+	overflow-y:scroll;
+	margin-right: -100px;
+	width:auto;
+	height:auto;
+	margin-top: -10px;
+
+}
+
+
+
+
+#DivRptLyt BODY {
+	margin:0pt;
+	background-color:#FFFFFF;
+	background-color:#FFFFFF;
+	background-image:none;
+	
+	
+}
+
+#DivRptLyt A {
+	font-family:"verdana";
+	font-size:12pt;
+	font-weight:bold;
+	color:#137BF9;
+	
+}
+
+#DivRptLyt .MENUTABLE {
+	background: #137BF9;
+}
+
+#DivRptLyt .MENULINK {
+	font-family:"verdana";
+	font-size:12pt;
+	font-weight:bold;
+	color:#00000;
+	text-decoration:none;
+}
+
+A:HOVER {
+	text-decoration:underline;
+}
+
+#DivRptLyt .REGULAR {
+	font-family:"verdana";
+	font-size:9pt;
+	font-weight:normal;
+	color:#000000;
+}
+
+#DivRptLyt .REGULAR_HIN_BOLD {
+	font-family:"Kruti Dev 010";
+	font-size:12pt;
+	font-weight:bold;
+	color:#000000;
+}
+
+#DivRptLyt .BOLD {
+	font-family:"verdana";
+	font-size:9pt;
+	font-weight:bold;
+	color:#000000;
+}
+
+#DivRptLyt .BOLD_HIN {
+	font-family:"Kruti Dev 010";
+	font-size:14pt;
+	font-weight:bold;
+	color:#000000;
+}
+
+
+#DivRptLyt .HEAD_COMP_NM {
+	font-family:"verdana";
+	font-size:10pt;
+	font-weight:normal;
+	color:#000000;
+}
+
+#DivRptLyt .HEAD_COMP_NM_HIN {
+	font-family:"Kruti Dev 010";
+	font-size:14pt;
+	font-weight:normal;
+	color:#000000;
+}
+
+#DivRptLyt .BUILTY_HEAD_HIN {
+	font-family:"Kruti Dev 010";
+	font-size:20pt;
+	font-weight:bold;
+	color:#000000;
+}
+
+#DivRptLyt .HEAD_COMP_ADD {
+	font-family:"verdana";
+	font-size:8pt;
+	font-weight:normal;
+	color:#000000;
+}
+
+#DivRptLyt .HEAD_COMP_ADD_HIN {
+	font-family:"Kruti Dev 010";
+	font-size:12pt;
+	font-weight:normal;
+	color:#000000;
+}
+
+#DivRptLyt .HEAD_TITLE  {
+	font-family:"verdana";
+	font-size:9pt;
+	font-weight:bold;
+	color:#000000;
+}
+#DivRptLyt .LINE {
+	padding: 0px;
+    border:  0.1px inset;
+    font-size: 0px;
+    color: gray;
+	line-height: 0;
+}
+
+#DivRptLyt .TITLE {
+	font-family:"verdana";
+	font-size:20pt;
+	font-weight:bold;
+	color:#000000;
+	text-decoration:none;
+}
+
+#DivRptLyt .REALLY_BIG {
+	font-family:"verdana";
+	font-size:36pt;
+	font-weight:bold;
+	color:#000000;
+	text-decoration:none;
+}
+
+#DivRptLyt .DOCUMENT_LAYER {
+	background: #FFFFFF;
+	font-family:"verdana";
+	font-size:9pt;
+	font-weight:normal;
+	color:#000000;
+}
+
+
+#DivRptLyt .PAGE_LAYER {
+	font-weight:normal;
+	background: #FFFFFF;
+	font-family:"verdana";
+	font-size:9pt;
+	color:#000000;
+}
+
+#DivRptLyt .PAGE_LAYER_HIN {
+	font-weight:normal;
+	background: #FFFFFF;
+	font-family:"Kruti Dev 010";
+	font-size:12pt;
+	color:#000000;
+}
+
+#DivRptLyt .HEAD_LAYER {
+	background: #FFFFFF;
+	font-family:"verdana";
+	font-size:7pt;
+	font-weight:normal;
+	color:#000000;
+}
+
+
+#DivRptLyt .REP_NM_LAYER {
+	background: #FFFFFF;
+	font-family:"verdana";
+	font-size:9pt;
+	font-weight:bold;
+	color:#000000;
+}
+
+#DivRptLyt .GROUP_LAYER {
+	background: #FFFFFF;
+	font-family:"verdana";
+	font-size:10pt;
+	font-weight:normal;
+	color:#000000;
+}
+
+#DivRptLyt .GROUP_LAYER_HIN {
+	background: #FFFFFF;
+	font-family:"Kruti Dev 010";
+	font-size:15pt;
+	font-weight:normal;
+	color:#000000;
+}
+
+#DivRptLyt .GROUP_LAYER_HIN_DTL {
+	background: #FFFFFF;
+	font-family:"Kruti Dev 010";
+	font-size:12pt;
+	font-weight:normal;
+	color:#000000;
+}
+
+
+#DivRptLyt .TOTAL_LAYER { 
+	background: #FFFFFF;
+	font-family:"verdana";
+	font-size:12pt;
+	font-weight:normal;
+	color:#000000;
+}
+
+#DivRptLyt .CATALOG_LAYER {
+	background: #FFFFFF;
+	font-family:"verdana";
+	font-size:12pt;
+	font-weight:normal;
+	color:#000000;
+}
+
+#DivRptLyt .RED_ROW {
+	background: #FF0000;
+	font-family:"verdana";
+	font-size:12pt;
+	font-weight:normal;
+	color:#FFFFFF;
+}
+
+#DivRptLyt .YELLOW_ROW {
+	background: #FFFFFF;
+	font-family:"verdana";
+	font-size:12pt;
+	font-weight:normal;
+	color:#000000;
+}
+
+#DivRptLyt .XML {
+	font-family: "verdana";
+	font-size: 11pt;
+	font-weight: plain;
+	color: #000000;
+}	
+
+#DivRptLyt .CODE {
+	font-family: "verdana";
+	font-size: 10pt;
+	font-weight: normal;
+	color: #000000;
+	background: #FFFFFF;
+}
+
+#DivRptLyt .CODE_HIGHLIGHT {
+	font-family: "verdana";
+	font-size: 10pt;
+	font-weight: normal;
+	color: #000000;
+	background: #D4FC0A;
+	width:500pt;
+}
+
+#DivRptLyt .SUBMIT_BUTTON {
+	background: #00B000;
+	font-family:"verdana";
+	font-size:12pt;
+	font-weight:bold;
+	color:#FFFFFF;
+	border-style:solid;
+	border-width:1pt;
+	border-color:#000000;
+	padding:5pt;
+}
+
+#DivRptLyt .PHPREPORTS_PAGE_CELL {
+	background: #FFFFFF;
+	font-family: "verdana";
+	font-size:12pt;
+	font-weight: normal;
+}
+
+#DivRptLyt .PHPREPORTS_PAGE_LINK {
+	color: #0000C0;
+	font-family: "verdana";
+	font-size:12pt;
+	font-weight: bold;
+}
+
+#DivRptLyt .PHPREPORTS_PAGE_LINK_BOLD {
+	color: #000000;
+	font-family: "verdana";
+	font-size:12pt;
+	font-weight: bold;
+	text-decoration:none;
+}
+
+#DivRptLyt .NOVIS{
+	visibility:hidden;
+
+}
+
+#DivRptLyt tr{
+	background-color:#FFFFFF;
+	}
+	
+#DivRptLyt td{
+	background-color:#FFFFFF;
+}
+
+#DivRptLyt table{
+	background-color:#FFFFFF;
+	}

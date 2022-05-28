@@ -1,0 +1,640 @@
+
+
+@font-face
+{
+font-family: KrutiDev;
+src: url(fonts/krdv010.ttf);
+}
+
+
+
+#DivRptLyt {
+	/*zoom :85%;*/
+	/*-moz-transform: scale(.85);*/
+
+	padding-left: 0px;
+	overflow-x:scroll;
+	overflow-y:scroll;
+	
+	/*-moz-margin-start: -59px;*/
+	/*width:825px;*/
+	width:auto;
+	height:670px;
+/*
+	-moz-margin-left: -60px;
+	-moz-margin-right: -60px;
+	-moz-margin-top: -10px;
+	-moz-margin-bottom: -10px;
+*/
+
+}
+
+#DivPrintLyt , #DivPDF
+{
+	width:100%; 
+	height:100%;
+	visibility:visible; 
+	zoom :100%;
+	-moz-transform: scale(1);
+	margin-left:0;
+}
+
+#DivPrintLyt tr, #DivRptLyt tr{
+	background-color:#FFFFFF;
+	}
+	
+#DivPrintLyt td, #DivRptLyt td{
+	background-color:#FFFFFF;
+}
+
+#DivPrintLyt table, #DivRptLyt table{
+	background-color:#FFFFFF;
+	}
+
+
+
+#DivPrintLyt .HIN_11_NORMAL, #DivRptLyt .HIN_11_NORMAL{					/*PAGE_LAYER_HIN*/
+	font-weight:normal;
+	background: #FFFFFF;
+	/*font-family:"Kruti Dev 010";*/
+	font-family:KrutiDev!important;
+	
+	font-size:11pt;
+	color:#000000;
+}
+
+#DivPrintLyt .HIN_12_NORMAL, #DivRptLyt .HIN_12_NORMAL {				/*GROUP_LAYER_HIN_DTL*/
+	background: #FFFFFF;
+	/*font-family:"Kruti Dev 010";*/
+	font-family:KrutiDev!important;
+	font-size:12pt;
+	font-weight:normal;
+	color:#000000;
+}
+
+#DivPrintLyt .HIN_14_NORMAL, #DivRptLyt .HIN_14_NORMAL {				/*GROUP_LAYER_HIN*/
+	background: #FFFFFF;
+	/*font-family:"Kruti Dev 010";*/
+	font-family:KrutiDev!important;
+	font-size:14pt;
+	font-weight:normal;
+	color:#000000;
+}
+
+#DivPrintLyt .HIN_17_NORMAL, #DivRptLyt .HIN_17_NORMAL{  					/*HEAD_COMP_ADD_HIN */
+	/*font-family:"Kruti Dev 010";*/
+	font-family:KrutiDev!important;
+	font-size:17pt;
+	font-weight:normal;
+	color:#000000;
+}
+
+#DivPrintLyt .HIN_12_BOLD, #DivRptLyt .HIN_12_BOLD {    				/*REGULAR_HIN_BOLD*/
+	/*font-family:"Kruti Dev 010";*/
+	font-family:KrutiDev!important;
+	font-size:12pt;
+	font-weight:bold;
+	color:#000000;
+}
+
+#DivPrintLyt .HIN_14_BOLD, #DivRptLyt .HIN_14_BOLD {        			/*BOLD_HIN*/
+	/*font-family:"Kruti Dev 010";*/
+	font-family:KrutiDev!important;
+	font-size:14pt;
+	font-weight:bold;
+	color:#000000;
+}
+
+#DivPrintLyt .HIN_16_BOLD, #DivRptLyt .HIN_16_BOLD {      /*HEAD_COMP_NM_HIN*/
+	/*font-family:"Kruti Dev 010";*/
+	font-family:KrutiDev!important;
+	font-size:16pt;
+	font-weight:bold;
+	color:#000000;
+}
+
+#DivPrintLyt  .HIN_20_BOLD, #DivRptLyt .HIN_20_BOLD {			/*BUILTY_HEAD_HIN*/
+	/*font-family:"Kruti Dev 010";*/
+	font-family:KrutiDev!important;
+	font-size:20pt;
+	font-weight:bold;
+	color:#000000;
+	height: 27px;
+    vertical-align: middle;
+}
+
+#DivPrintLyt .ENG_14_BOLD, #DivRptLyt .ENG_14_BOLD {					/*BUILTY_HEAD*/
+	font-family:"verdana";
+	font-size:14pt;
+	font-weight:bold;
+	color:#000000;
+}
+
+#DivPrintLyt .ENG_12_BOLD , #DivRptLyt .ENG_12_BOLD {					/*MENULINK*/
+	font-family:"verdana";
+	font-size:12pt;
+	font-weight:bold;
+	color:#00000;
+	text-decoration:none;
+}
+
+#DivPrintLyt .ENG_10_BOLD, #DivRptLyt .ENG_10_BOLD {						/*REP_NM_LAYER*/
+	background: #FFFFFF;
+	font-family:"verdana";
+	font-size:10pt;
+	font-weight:bold;
+	color:#000000;
+}
+
+#DivPrintLyt .ENG_9_BOLD, #DivRptLyt .ENG_9_BOLD{					/*BOLD*/
+	background: #FFFFFF;					
+	font-family:"verdana";
+	font-size:9pt;
+	font-weight:bold;
+	color:#000000;
+}
+
+#DivPrintLyt .ENG_8_BOLD, #DivRptLyt .ENG_8_BOLD  {					/*HEAD_TITLE*/
+	font-family:"verdana";
+	font-size:8pt;
+	font-weight:bold;
+	color:#000000;
+	padding:2px;
+}
+
+#DivPrintLyt .ENG_12_NORMAL, #DivRptLyt .ENG_12_NORMAL{					/*GROUP_LAYER*/
+	background: #FFFFFF;
+	font-family:"verdana";
+	font-size:12pt;
+	font-weight:normal;
+	color:#000000;
+}
+
+#DivPrintLyt .ENG_10_NORMAL, #DivRptLyt .ENG_10_NORMAL{					/*HEAD_COMP_NM*/
+	font-family:"verdana";
+	font-size:10pt;
+	font-weight:normal;
+	color:#000000;
+}
+
+#DivPrintLyt .ENG_9_NORMAL, #DivRptLyt .ENG_9_NORMAL {						/*PAGE_LAYER*/
+	font-weight:normal;
+	background: #FFFFFF;
+	font-family:"verdana";
+	font-size:9pt;
+	color:#000000;
+	vertical-align:top;
+}
+
+#DivPrintLyt .ENG_8_NORMAL, #DivRptLyt .ENG_8_NORMAL{					/*HEAD_COMP_ADD */
+	font-family:"verdana";
+	font-size:8pt;
+	font-weight:normal;
+	color:#000000;
+}
+
+#DivPrintLyt .ENG_7_NORMAL, #DivRptLyt .ENG_7_NORMAL {						/*HEAD_LAYER*/
+	background: #FFFFFF;
+	font-family:"verdana";
+	font-size:7pt;
+	font-weight:normal;
+	color:#000000;
+}
+
+#DivPrintLyt .NOVIS, #DivRptLyt .NOVIS{
+	visibility:hidden;
+
+}
+
+
+#DivPrintLyt .LINE , #DivRptLyt .LINE {
+	padding: 0px;
+    border:  1px inset;
+    font-size: 0px;
+    color: gray;
+	line-height: 0;
+}
+
+/********************************UNUSED*******************************/
+#DivPrintLyt .TOTAL_LAYER , #DivRptLyt .TOTAL_LAYER { 					
+	background: #FFFFFF;
+	font-family:"verdana";
+	font-size:12pt;
+	font-weight:normal;
+	color:#000000;
+}
+
+#DivPrintLyt .CATALOG_LAYER, #DivRptLyt .CATALOG_LAYER {
+	background: #FFFFFF;
+	font-family:"verdana";
+	font-size:12pt;
+	font-weight:normal;
+	color:#000000;
+}
+
+#DivPrintLyt .RED_ROW, #DivRptLyt .RED_ROW {
+	background: #FF0000;
+	font-family:"verdana";
+	font-size:12pt;
+	font-weight:normal;
+	color:#FFFFFF;
+}
+
+#DivPrintLyt .YELLOW_ROW, #DivRptLyt .YELLOW_ROW {
+	background: #FFFFFF;
+	font-family:"verdana";
+	font-size:12pt;
+	font-weight:normal;
+	color:#000000;
+}
+
+#DivPrintLyt .XML, #DivRptLyt .XML {
+	font-family: "verdana";
+	font-size: 11pt;
+	font-weight: plain;
+	color: #000000;
+}	
+
+#DivPrintLyt .CODE, #DivRptLyt .CODE {
+	font-family: "verdana";
+	font-size: 10pt;
+	font-weight: normal;
+	color: #000000;
+	background: #FFFFFF;
+}
+
+#DivPrintLyt .CODE_HIGHLIGHT, #DivRptLyt .CODE_HIGHLIGHT {
+	font-family: "verdana";
+	font-size: 10pt;
+	font-weight: normal;
+	color: #000000;
+	background: #D4FC0A;
+	width:500pt;
+}
+
+#DivPrintLyt .SUBMIT_BUTTON, #DivRptLyt .SUBMIT_BUTTON {
+	background: #00B000;
+	font-family:"verdana";
+	font-size:12pt;
+	font-weight:bold;
+	color:#FFFFFF;
+	border-style:solid;
+	border-width:1pt;
+	border-color:#000000;
+	padding:5pt;
+}
+
+#DivPrintLyt .PHPREPORTS_PAGE_CELL, #DivRptLyt .PHPREPORTS_PAGE_CELL {
+	background: #FFFFFF;
+	font-family: "verdana";
+	font-size:12pt;
+	font-weight: normal;
+}
+
+#DivPrintLyt .PHPREPORTS_PAGE_LINK, #DivRptLyt .PHPREPORTS_PAGE_LINK {
+	color: #0000C0;
+	font-family: "verdana";
+	font-size:12pt;
+	font-weight: bold;
+}
+
+#DivPrintLyt .PHPREPORTS_PAGE_LINK_BOLD, #DivRptLyt .PHPREPORTS_PAGE_LINK_BOLD {
+	color: #000000;
+	font-family: "verdana";
+	font-size:12pt;
+	font-weight: bold;
+	text-decoration:none;
+}
+
+#DivPrintLyt .TITLE , #DivRptLyt .TITLE {
+	font-family:"verdana";
+	font-size:20pt;
+	font-weight:bold;
+	color:#000000;
+	text-decoration:none;
+}
+
+#DivPrintLyt .REALLY_BIG, #DivRptLyt .REALLY_BIG {
+	font-family:"verdana";
+	font-size:36pt;
+	font-weight:bold;
+	color:#000000;
+	text-decoration:none;
+}
+
+#DivPrintLyt .DOCUMENT_LAYER, #DivRptLyt .DOCUMENT_LAYER {
+	background: #FFFFFF;
+	font-family:"verdana";
+	font-size:9pt;
+	font-weight:normal;
+	color:#000000;
+}
+
+#DivRptLyt BODY {
+	margin:0pt;
+	color:#000000;
+}
+
+#DivRptLyt A {
+	font-family:"verdana";
+	font-size:12pt;
+	font-weight:bold;
+	color:#137BF9;
+}
+
+#DivPrintLyt .MENUTABLE , #DivRptLyt .MENUTABLE {
+	background: #137BF9;
+}
+
+A:HOVER {
+	text-decoration:underline;
+}
+
+#DivPrintLyt .REGULAR, #DivRptLyt .REGULAR {
+	font-family:"verdana";
+	font-size:9pt;
+	font-weight:normal;
+	color:#000000;
+}
+
+#DivPrintLyt .BLANKLINE , #DivRptLyt .BLANKLINE {
+	color:#FFFFFF;
+	font-size:0px;
+}
+
+#DivPrintLyt .barcode_22, #DivRptLyt .barcode_22 {						/*barcode_22*/
+	background: #FFFFFF;
+	/*font-family: "WASP 39 L";*/
+	font-family: "free 3 of 9";
+	font-size:22pt;
+	font-weight:normal;
+	color:#000000;
+}
+
+#DivPrintLyt .barcode_12, #DivRptLyt .barcode_12 {						/*barcode_22*/
+	background: #FFFFFF;
+	/*font-family:'WASP39H';*/
+	font-family: "free 3 of 9";
+	
+	
+	font-size:12pt; 
+	font-weight:normal;
+	color:#000000;
+}
+
+#DivPrintLyt .ENG_6_NORMAL, #DivRptLyt .ENG_6_NORMAL {						/*HEAD_LAYER*/
+	background: #FFFFFF;
+	font-family:"verdana";
+	font-size:6pt;
+	font-weight:normal;
+	color:#000000;
+}
+
+#DivPrintLyt .ENG_10_BOLD_ARIAL, #DivRptLyt .ENG_10_BOLD_ARIAL {       /*HEAD_LAYER*/
+	background: #FFFFFF;
+	font-family:"arial";
+	font-size:10pt;
+	font-weight:bold;
+	color:#000000;
+}
+
+#DivPrintLyt .VERT_LR, #DivRptLyt .VERT_LR { 
+	border-right: 1px solid black;
+	height: 100%;
+}
+
+
+#DivPrintLyt .HIDE, #DivRptLyt .HIDE { 
+	display: none;
+	}
+	
+#DivPrintLyt .ENG_6_NORMAL_NEW, #DivRptLyt .ENG_6_NORMAL_NEW {						/*HEAD_LAYER*/
+	background: #FFFFFF;
+	font-family:"Verdana";
+	font-size:6pt;
+	font-weight:normal;
+	color:#000000;
+	line-height: 10px;
+}	
+
+	
+#DivPrintLyt .VERT_LRS, #DivRptLyt .VERT_LRS { 
+	border-right: 1px solid black;
+	padding-right: 2px;
+	height: 100%;
+}
+
+#DivPrintLyt .VERT_LRS, #DivRptLyt .VERT_LRS { 
+	border-right: 1px solid black;
+	padding-right: 4px;
+	padding-left: 4px;
+	height: 100%;
+}
+
+	
+#DivPrintLyt .VERT_LRL, #DivRptLyt .VERT_LRL { 
+	border-right: 1px solid black;
+	border-left: 1px solid black;
+	padding-right: 4px;
+	padding-left: 4px;
+	height: 100%;
+}
+
+#DivPrintLyt .VERT_LNL, #DivRptLyt .VERT_LNL { 
+	border-left: 1px solid black;
+	padding-left: 4px;
+	height: 100%;
+}
+
+#DivPrintLyt .LINE_BT , #DivRptLyt .LINE_BT {
+	padding-right: 4px;
+	padding-left: 4px;
+    border-bottom: 1px solid black;
+    height: 100%;
+}
+
+
+#DivPrintLyt .ENG_8_NORMAL_NEW, #DivRptLyt .ENG_8_NORMAL_NEW{					/*HEAD_COMP_ADD */
+	font-family:"verdana";
+	font-size:8pt;
+	font-weight:normal;
+	color:#000000;
+	line-height: 15px;
+}
+
+#DivPrintLyt .ENG_8_NORMAL_BTBR, #DivRptLyt .ENG_8_NORMAL_BTBR{					/*HEAD_COMP_ADD */
+	font-family:"verdana";
+	font-size:8pt;
+	font-weight:normal;
+	border-bottom: 1px solid black;
+	color:#000000;
+	
+}
+
+#DivPrintLyt .ENG_10_BOLD_OVUN, #DivRptLyt .ENG_10_BOLD_OVUN{					/*HEAD_COMP_ADD */
+	font-family:"verdana";
+	font-size:10pt;
+	font-weight:bold;
+	text-decoration:underline;
+	color:#000000;
+	
+}
+
+#DivPrintLyt .ENG_8_NORMAL_TPBT, #DivRptLyt .ENG_8_NORMAL_TPBT{					/*HEAD_COMP_ADD */
+	font-family:"verdana";
+	font-size:8pt;
+	font-weight:normal;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	color:#000000;
+	
+}
+
+
+#DivPrintLyt .ENG_8_BOLD_TPBT, #DivRptLyt .ENG_8_BOLD_TPBT{					/*HEAD_COMP_ADD */
+	font-family:"verdana";
+	font-size:8pt;
+	font-weight:bold;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	color:#000000;
+	
+}
+#DivPrintLyt .ENG_9_NORMAL_TPBT, #DivRptLyt .ENG_9_NORMAL_TPBT{					/*HEAD_COMP_ADD */
+	font-family:"verdana";
+	font-size:9pt;
+	font-weight:normal;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	color:#000000;
+	
+}
+
+#DivPrintLyt .ENG_7_BOLD_ULN, #DivRptLyt .ENG_7_BOLD_ULN{					/*HEAD_COMP_ADD */
+	font-family:"verdana";
+	font-size:7pt;
+	font-weight:bold;
+	text-decoration:underline;
+	color:#000000;
+	
+}
+
+
+#DivPrintLyt .ENG_8_BOLD_ULN, #DivRptLyt .ENG_8_BOLD_ULN{					/*HEAD_COMP_ADD */
+	font-family:"verdana";
+	font-size:8pt;
+	font-weight:bold;
+	text-decoration:underline;
+	color:#000000;
+	
+}
+
+#DivPrintLyt .LINE_TOP, #DivRptLyt .LINE_TOP{					
+	/*HEAD_COMP_ADD */
+	border-top: 1px solid black;
+	padding-top: 4px;
+	height: 100%;
+	
+}
+
+/*30-01-2015*/
+#DivPrintLyt .LINE_TP , #DivRptLyt .LINE_TP {
+	padding-right: 4px;
+	padding-left: 4px;
+    border-top: 1px solid black;
+    height: 100%;
+}
+
+/*29-03-2015*/
+
+#DivPrintLyt .BORD_TOP , #DivRptLyt .BORD_TOP {
+  border: 1px solid #a0a0a0;
+  background-color: #a0a0a0;
+  border-top-left-radius: 14px;
+  border-top-right-radius: 14px;
+  padding-left: 14px
+}
+
+#DivPrintLyt .BORD_LB , #DivRptLyt .BORD_LB {
+  border-left: 1px solid #a0a0a0;
+  border-bottom: 1px solid #a0a0a0;
+  padding-left: 14px;
+}
+
+#DivPrintLyt .BORD_RB , #DivRptLyt .BORD_RB {
+  border-right: 1px solid #a0a0a0;
+  border-bottom: 1px solid #a0a0a0;
+  padding-right: 14px;
+}
+
+#DivPrintLyt .BORD_BT , #DivRptLyt .BORD_BT {
+  border-bottom: 1px solid #a0a0a0;
+  padding-left: 14px;
+  padding-right: 14px;
+}
+
+#DivPrintLyt .BORD_BTL , #DivRptLyt .BORD_BTL {
+  border-left: 1px solid #a0a0a0;
+  border-bottom-left-radius: 14px;
+  border-bottom: 1px solid #a0a0a0;
+  padding-left: 14px;
+}
+
+
+#DivPrintLyt .BORD_BTR , #DivRptLyt .BORD_BTR {
+  border-right: 1px solid #a0a0a0;
+  border-bottom: 1px solid #a0a0a0;
+  border-bottom-right-radius: 14px;
+  padding-right: 14px;
+}
+
+
+ #DivRptLyt .LINK {  
+	cursor:pointer;
+	color:#137BF9;
+}
+
+#DivPrintLyt .DOTLINE , #DivRptLyt .DOTLINE {
+	padding: 0px;
+      border: 1px dotted;
+    font-size: 0px;
+    color: lightgray;
+	line-height: 0;
+}
+#DivPrintLyt .DASHLINE , #DivRptLyt .DASHLINE {
+	padding: 0px;
+      border: 1px dashed;
+    font-size: 0px;
+    color: lightgray;
+	line-height: 0;
+}
+#DivPrintLyt .ENG_6_NORMAL_LNHG, #DivRptLyt .ENG_6_NORMAL_LNHG {						/*HEAD_LAYER*/
+	background: #FFFFFF;
+	font-family:"verdana";
+	font-size:6pt;
+	font-weight:normal;
+	line-height:10px;
+	color:#000000;
+	text-align:justify;
+}
+/* 
+ #DivRptLyt .LINK:after{ 
+    content: "Open SCreen";
+     padding: 2px;
+    display:none;
+    position: relative;
+    top: -20px;
+     right: -30px;
+    width: auto;
+    text-align: center;
+    background-color: #fef4c5;
+    border: 1px solid #d4b943;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px; 
+    -ms-border-radius: 2px;
+    border-radius: 2px;
+}
+ #DivRptLyt .LINK:hover:after{
+    display: block;
+} 
+ */
